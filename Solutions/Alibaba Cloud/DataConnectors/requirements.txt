@@ -6,3 +6,4 @@ azure-storage-file-share==12.3.0
 azure-functions
 requests==2.32.4
 aliyun-log-python-sdk==0.7.7
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
